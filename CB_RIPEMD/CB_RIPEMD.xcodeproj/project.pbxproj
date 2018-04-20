@@ -16,7 +16,6 @@
 		A84EC0C9208984F100D6EB64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A84EC0C8208984F100D6EB64 /* main.m */; };
 		A84EC0D3208984F100D6EB64 /* CB_RIPEMDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84EC0D2208984F100D6EB64 /* CB_RIPEMDTests.m */; };
 		A84EC0DE208984F100D6EB64 /* CB_RIPEMDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84EC0DD208984F100D6EB64 /* CB_RIPEMDUITests.m */; };
-		A84EC0EE2089859700D6EB64 /* NSData+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = A84EC0ED2089859700D6EB64 /* NSData+Hashing.m */; };
 		A84EC0F0208985BA00D6EB64 /* CB_RIPEMD.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A84EC0EF208985BA00D6EB64 /* CB_RIPEMD.podspec */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +54,6 @@
 		A84EC0D9208984F100D6EB64 /* CB_RIPEMDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CB_RIPEMDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84EC0DD208984F100D6EB64 /* CB_RIPEMDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CB_RIPEMDUITests.m; sourceTree = "<group>"; };
 		A84EC0DF208984F100D6EB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A84EC0EC2089859700D6EB64 /* NSData+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hashing.h"; sourceTree = "<group>"; };
-		A84EC0ED2089859700D6EB64 /* NSData+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hashing.m"; sourceTree = "<group>"; };
 		A84EC0EF208985BA00D6EB64 /* CB_RIPEMD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CB_RIPEMD.podspec; path = ../CB_RIPEMD.podspec; sourceTree = "<group>"; };
 		BF1C9D707FDAD4E099256241 /* libPods-CB_RIPEMD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CB_RIPEMD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11929B23CE590DD0F0E20B2 /* Pods-CB_RIPEMD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CB_RIPEMD.release.xcconfig"; path = "Pods/Target Support Files/Pods-CB_RIPEMD/Pods-CB_RIPEMD.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				A84EC0EF208985BA00D6EB64 /* CB_RIPEMD.podspec */,
-				A84EC0EB2089859700D6EB64 /* RIPEMD */,
 				A84EC0B8208984F000D6EB64 /* CB_RIPEMD */,
 				A84EC0D1208984F100D6EB64 /* CB_RIPEMDTests */,
 				A84EC0DC208984F100D6EB64 /* CB_RIPEMDUITests */,
@@ -152,15 +148,6 @@
 				A84EC0DF208984F100D6EB64 /* Info.plist */,
 			);
 			path = CB_RIPEMDUITests;
-			sourceTree = "<group>";
-		};
-		A84EC0EB2089859700D6EB64 /* RIPEMD */ = {
-			isa = PBXGroup;
-			children = (
-				A84EC0EC2089859700D6EB64 /* NSData+Hashing.h */,
-				A84EC0ED2089859700D6EB64 /* NSData+Hashing.m */,
-			);
-			path = RIPEMD;
 			sourceTree = "<group>";
 		};
 		FE731B9F9C70EEAEE72B0DA5 /* Pods */ = {
@@ -328,7 +315,6 @@
 				A84EC0BE208984F000D6EB64 /* ViewController.m in Sources */,
 				A84EC0C9208984F100D6EB64 /* main.m in Sources */,
 				A84EC0BB208984F000D6EB64 /* AppDelegate.m in Sources */,
-				A84EC0EE2089859700D6EB64 /* NSData+Hashing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

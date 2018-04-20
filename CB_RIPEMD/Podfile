@@ -8,7 +8,7 @@ project 'CB_RIPEMD.xcodeproj'
 inhibit_all_warnings!
 
 target 'CB_RIPEMD' do
-    pod 'OpenSSL-Universal'
-
+#    pod 'OpenSSL-Universal'
+    pod 'CB_RIPEMD'
 
 end
