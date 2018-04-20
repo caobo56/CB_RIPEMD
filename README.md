@@ -1,5 +1,14 @@
 # CB_RIPEMD
-RIPEMD算法，目前只有RIPEMD-160。
+
+
+### 使用方式：
+```
+pod  'CB_RIPEMD'
+```
+目前版本为（0.9.0）
+
+
+CB_RIPEMD是对RIPEMD算法的OC基础pod库，目前只有RIPEMD-160。
 
 是从CoreBitcoin 项目摘出来的，目的是方便查找RIPEMD-160(RIPEMD160)。
 
